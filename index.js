@@ -45,6 +45,10 @@ module.exports = global.SC = {
   isConnected () {
     return config.get('oauth_token') !== undefined;
   },
+  
+  disconnect () {
+    config.unset('oauth_token');
+  },
 
   /** OEMBED METHODS */
   oEmbed (url, options) {
