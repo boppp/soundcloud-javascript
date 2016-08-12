@@ -47,7 +47,7 @@ module.exports = global.SC = {
   },
   
   disconnect () {
-    config.unset('oauth_token');
+    config.unset_oauth_token();
   },
 
   /** OEMBED METHODS */
