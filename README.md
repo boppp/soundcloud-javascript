@@ -1,7 +1,7 @@
 # SoundCloud JavaScript Next
 
 ## Difference from soundcloud's API
-- this one provides a simple .disconnect method so you can use disconnect from soundcloud.
+This repo additionally provides a simple .disconnect method so you can use disconnect from soundcloud.
 
 ## Setup
 
