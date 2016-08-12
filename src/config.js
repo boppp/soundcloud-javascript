@@ -15,5 +15,9 @@ module.exports = {
     if (value) {
       config[key] = value;
     }
+  },
+  
+  unset_oauth_token() {
+    config['oauth_token'] = undefined;
   }
 };
